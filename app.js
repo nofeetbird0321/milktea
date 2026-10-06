@@ -85,3 +85,4 @@
   window.addEventListener('focus', () => { $('date').max = D.today(); refresh(); });
   refresh();
 })();
+
