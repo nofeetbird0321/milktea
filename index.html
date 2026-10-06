@@ -40,7 +40,7 @@
     <footer><span>少喝一杯 · 把小小的自律攒起来</span><span>记录仅存在本浏览器，记得定期备份。</span></footer>
   </div>
   <div id="toast" role="status" aria-live="polite" hidden></div>
-  <dialog id="backup-dialog"><div class="section-top"><h2>给积累留一份备份</h2><button class="close quiet" data-close="backup-dialog" aria-label="关闭">×</button></div><p class="subtle">记录保存在当前设备的浏览器中，不会自动同步。清除网站数据或换浏览器前，请先导出备份。</p><button id="export" class="primary" type="button">导出全部记录 · JSON</button><label class="import-label" for="import-file">导入已有备份</label><input id="import-file" type="file" accept="application/json,.json"><p class="fineprint">导入会合并记录，相同编号不会重复添加。请只使用本页导出的备份文件。</p><p id="backup-message" role="status"></p></dialog>
+  <dialog id="backup-dialog"><div class="section-top"><h2>给积累留一份备份</h2><button class="close quiet" data-close="backup-dialog" aria-label="关闭">×</button></div><p class="subtle">记录保存在当前设备的浏览器中，不会自动同步。清除网站数据或换浏览器前，请先导出备份。</p><p class="subtle">从旧版搬过来？先打开 <a href="https://tools.nofeetbird.tech/milktea/" target="_blank" rel="noopener">旧版账本</a> 导出备份，再到这里导入，继续积累。</p><button id="export" class="primary" type="button">导出全部记录 · JSON</button><label class="import-label" for="import-file">导入已有备份</label><input id="import-file" type="file" accept="application/json,.json"><p class="fineprint">导入会合并记录，相同编号不会重复添加。请只使用本页导出的备份文件。</p><p id="backup-message" role="status"></p></dialog>
   <dialog id="delete-dialog"><h2>删除这笔记录？</h2><p id="delete-detail" class="subtle"></p><div class="dialog-actions"><button class="quiet" data-close="delete-dialog">保留记录</button><button id="delete-confirm" class="danger">删除</button></div></dialog>
   <noscript><p class="warning">请启用 JavaScript 后使用记账与统计功能。</p></noscript>
 </body>
